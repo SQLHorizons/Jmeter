@@ -1,0 +1,55 @@
+{
+  "adminUserEnabled": true,
+  "anonymousPullEnabled": false,
+  "creationDate": "2021-08-27T12:58:36.145711+00:00",
+  "dataEndpointEnabled": false,
+  "dataEndpointHostNames": [],
+  "encryption": {
+    "keyVaultProperties": null,
+    "status": "disabled"
+  },
+  "id": "/subscriptions/b385dadb-4715-4157-b353-c547cce5ce0f/resourceGroups/MC_k8s-aks-c01_k8s-aks-c01_uksouth/providers/Microsoft.ContainerRegistry/registries/sqlhorizons",
+  "identity": null,
+  "location": "uksouth",
+  "loginServer": "sqlhorizons.azurecr.io",
+  "name": "sqlhorizons",
+  "networkRuleBypassOptions": "AzureServices",
+  "networkRuleSet": null,
+  "policies": {
+    "exportPolicy": {
+      "status": "enabled"
+    },
+    "quarantinePolicy": {
+      "status": "disabled"
+    },
+    "retentionPolicy": {
+      "days": 7,
+      "lastUpdatedTime": "2021-08-27T12:58:38.444224+00:00",
+      "status": "disabled"
+    },
+    "trustPolicy": {
+      "status": "disabled",
+      "type": "Notary"
+    }
+  },
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "resourceGroup": "MC_k8s-aks-c01_k8s-aks-c01_uksouth",
+  "sku": {
+    "name": "Basic",
+    "tier": "Basic"
+  },
+  "status": null,
+  "systemData": {
+    "createdAt": "2021-08-27T12:58:36.145711+00:00",
+    "createdBy": "paul.dmax@outlook.com",
+    "createdByType": "User",
+    "lastModifiedAt": "2021-08-27T12:58:36.145711+00:00",
+    "lastModifiedBy": "paul.dmax@outlook.com",
+    "lastModifiedByType": "User"
+  },
+  "tags": {},
+  "type": "Microsoft.ContainerRegistry/registries",
+  "zoneRedundancy": "Disabled"
+}

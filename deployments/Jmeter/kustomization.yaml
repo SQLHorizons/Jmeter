@@ -1,0 +1,7 @@
+bases:
+ - config
+
+namespace: Jmeter
+
+resources:
+ - Jmeter-ns.yaml

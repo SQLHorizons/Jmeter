@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "containerName": {
+      "value": "jmeter"
+    },
+    "location": {
+      "value": "uksouth"
+    },
+    "imageType": {
+      "value": "Private"
+    },
+    "imageName": {
+      "value": "sqlhorizons.azurecr.io/ado.jmeter.agent:5.4.1"
+    },
+    "osType": {
+      "value": "Linux"
+    },
+    "numberCpuCores": {
+      "value": "1"
+    },
+    "memory": {
+      "value": "0.5"
+    },
+    "restartPolicy": {
+      "value": "Never"
+    },
+    "imageRegistryLoginServer": {
+      "value": "sqlhorizons.azurecr.io"
+    },
+    "imageUsername": {
+      "value": "sqlhorizons"
+    },
+    "imagePassword": {
+      "value": null
+    },
+    "ipAddressType": {
+      "value": "Private"
+    },
+    "ports": {
+      "value": [
+        {
+          "port": "80",
+          "protocol": "TCP"
+        }
+      ]
+    },
+    "subnetName": {
+      "value": "vm-subnet"
+    },
+    "subnetAddressPrefix": {
+      "value": "10.241.0.0/24"
+    }
+  }
+}
