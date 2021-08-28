@@ -39,4 +39,8 @@ az container show `
   --resource-group $($params.ResourceGroup) `
   --name $($params.Container.name)
 
+az container list `
+  --resource-group $($params.ResourceGroup) `
+  --output table
+
 ```
